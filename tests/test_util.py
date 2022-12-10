@@ -1,5 +1,5 @@
 import pytest
-from src.util import same_strings
+from comutils.util import same_strings
 
 def test_same_strings():
     assert same_strings('ben','Ben') == True
