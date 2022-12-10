@@ -8,7 +8,7 @@ setuptools.setup(
     url='git@github.com:BennyC31/com_utils.git',
     author='Benjamin Calderaio, Jr.',
     author_email='bencalderaio@gmail.com',
-    packages=setuptools.find_packages(),
+    packages=['src'],
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3.9',
